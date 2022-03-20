@@ -1,5 +1,7 @@
 * {
     margin:0;
+    font-family: 'Ubuntu', sans-serif;
+
  
 }
 
@@ -7,10 +9,9 @@ header{
     height: 5rem;
     background-color: rgb(209, 209, 223);
     text-align: center;
+    align-items: center;
 }
-h1{
-    font-family: 'Ubuntu', sans-serif;
-}
+
 #addBook {
   width: 10rem;
   padding: 1rem;
@@ -39,14 +40,27 @@ form{
     gap:0.5rem;
 }
 .modalCont{
-    /* display: none; */
+    display: none;
     position:fixed;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
     border: 2px solid black;
     padding: 2rem;
+    border-radius: 1rem;
 }
 #closeBtn{
    float: right;
+   color: rgba(0,0,0,0.7);
+   
+   cursor: pointer;
+}
+
+.displayBody {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+#closeBtn:hover {
+
 }
