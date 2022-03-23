@@ -9,35 +9,13 @@ header{
     height: 5rem;
     background-color: rgb(209, 209, 223);
     text-align: center;
-    align-items: center;
 }
 
-#addBook {
-  width: 10rem;
-  padding: 1rem;
-  background-color: white;
-  border:none;
-  font-size:1.5rem;
-  border-radius: 1rem;
-  transition: background-image 0.5s ease-in-out 0.1s;
-  
-}
-.buttonBox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-
-}
-#addBook:hover{
-    background-image:linear-gradient(to right,#aa9bcc, #7d60bf);
-    cursor: pointer;
-}
 form{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap:0.5rem;
+    justify-content: space-evenly;
+    padding:1rem;
 }
 .modalCont{
     display: none;
@@ -49,18 +27,8 @@ form{
     padding: 2rem;
     border-radius: 1rem;
 }
-#closeBtn{
-   float: right;
-   color: rgba(0,0,0,0.7);
-   
-   cursor: pointer;
-}
-
-.displayBody {
-    display:grid;
-    grid-template-columns: repeat(4, 1fr);
-
-}
-#closeBtn:hover {
+table {
+    width:100%;
+    padding: 1rem 3rem;
 
 }
