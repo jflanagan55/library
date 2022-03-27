@@ -26,3 +26,17 @@ table {
 .tableRows{
     text-align: center;
 }
+
+.delete{
+    background-color: #f51313;
+    border-radius: 0.5rem;
+    padding:0.3rem;
+    color:white;
+}
+.delete:hover{
+    cursor: pointer;
+}
+tbody > tr:nth-child(odd){
+    background-color: #d3d3d3;
+}
+
