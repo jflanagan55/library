@@ -17,18 +17,12 @@ form{
     justify-content: space-evenly;
     padding:1rem;
 }
-.modalCont{
-    display: none;
-    position:fixed;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    border: 2px solid black;
-    padding: 2rem;
-    border-radius: 1rem;
-}
+
 table {
     width:100%;
     padding: 1rem 3rem;
 
+}
+.tableRows{
+    text-align: center;
 }
